@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+   <p><span class="add-code">audio</span>是HTML新标签，用法简单：
+<xmp class="code-style">
+<audio src="地址.mp3" autoplay(加载完自动播放)
+ controls(显示控件)>如果浏览器不支持audio，会显示这段话</audio>
+</xmp>
+</p>
+<script>
+    const _li = document.getElementsByTagName("li");
+	for(let i=0;i<_li.length;i++) {
+		_li[i].onclick = () => {
+			console.log(i);
+		}
+	}
+</script>
+</body>
+</html>
